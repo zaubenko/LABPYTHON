@@ -1,13 +1,16 @@
+#•	Обработка сообщений
+#	Окна сообщений, ресурсы, меню и акселераторы
+# •	Модальные и немодальные диалоговые окна
 from tkinter import *
 from tkinter import messagebox
 
 
 def display_full_name():
-    messagebox.showinfo("GUI Python","Добро пожаловать " + name.get() + " " + surname.get())
+    messagebox.showinfo("Добро пожаловать " + name.get() + " " + surname.get())
 
 
 root = Tk()
-root.title("GUI на Python")
+root.title("Python")
 
 name = StringVar()
 surname = StringVar()

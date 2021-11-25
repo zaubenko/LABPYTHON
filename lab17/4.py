@@ -1,3 +1,5 @@
+# •	Элементы управления: флажки, радиокнопки, статические элементы
+
 from tkinter import *
 
 phones = [("iPhone", 1), ("Samsung", 2), ("Huawei", 3), ("Motorolla", 4)]
