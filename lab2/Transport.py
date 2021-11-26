@@ -1,3 +1,6 @@
+#3.	Напишите программу, в которой классы Car и Bus будут производными от класса Transport, а MicroBus – производным от  Car и Bus.
+# Сделайте Transport абстрактным типом данных с двумя чисто виртуальными функциями. Классы Car и Bus не должны быть ADT.
+# Проверьте программу, путем создания объектов разных типов
 class Transport:
     def __init__(self,number=None,data=None,marka=None):
         self.number=number

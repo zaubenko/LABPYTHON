@@ -1,3 +1,5 @@
+#4.	Модифицируйте программу п.3 так, чтобы Car был ADT, и выведите из Car классы SportsCar, Wagon, Coupe.
+# Реализуйте в классах простейшие функции.
 class Transport:
     def __init__(self,number=None,data=None,marka=None):
         self.number=number

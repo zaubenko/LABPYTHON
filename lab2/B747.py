@@ -1,3 +1,4 @@
+#2.	Напишите объявление для B747, который является производным от класса JetPlane?
 class Rocket:
     def __init__(self,length=None):
         self.length=length
